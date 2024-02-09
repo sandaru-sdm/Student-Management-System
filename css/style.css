@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "QuickSand";
+    src: url("../Font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("../Font/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "QuickSand";
+    font-size: 14px;
+}
+
+.bg {
+    background-image: url(../Resources/Wallpaper-7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg {
+        background-image: url(../Resources/Wallpaper-7.jpg);
+    }
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

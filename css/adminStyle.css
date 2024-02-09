@@ -1,0 +1,22 @@
+body {
+    background-image: url(../Resources/Wall1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(../Resources/Wall1.svg);
+    }
+}
+
+.logo {
+    background-image: url("../Resources/img/img1.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

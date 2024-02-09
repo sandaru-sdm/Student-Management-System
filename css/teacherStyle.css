@@ -1,0 +1,16 @@
+.bg-img {
+    background-image: url(../Resources/Wall4.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    /* filter: blur(5px); */
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-img {
+        background-image: url(../Resources/Wall4.svg);
+        /* filter: blur(5px); */
+    }
+}
