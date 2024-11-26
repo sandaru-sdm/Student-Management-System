@@ -7,7 +7,7 @@ class Database{
     public static function setUpConnection(){
         if(!isset(Database::$connection)){
             Database::$connection = 
-            new mysqli("localhost","root","dilshan2000","sms","3307");
+            new mysqli("localhost","YOUR_DB_USERNAME","YOUR_DB_PASSWORD","sms","YOUR_DB_PORT");
         }
     }
 
@@ -24,6 +24,6 @@ class Database{
 
 }
 
-$conn = mysqli_connect("localhost","root","dilshan2000","sms","3307");
+$conn = mysqli_connect("localhost","YOUR_DB_USERNAME","YOUR_DB_PASSWORD","sms","YOUR_DB_PORT");
 
 ?>
